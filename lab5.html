@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Questionnaire</title>
+    
+</head>
+<body>
+    <div>
+        <h1 align="center">Questionnaire</h1>
+        <p align="center"><b>A Questionnaire on Student's Experience in Practical Courses</b></p>
+        
+        <form action="#" method="POST" border=>
+            <fieldset>
+                <legend>Student Information:</legend>
+            <section>
+                <label for="student-name">Student Name:</label>
+                <input type="text" id="student-name" name="student-name" placeholder="Enter Student Name" required>
+                <label for="matricule">Matricule:</label>
+                <input type="text" id="matricule" name="matricule" placeholder="Enter Matricule" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter Phone Number" required>
+                
+            </section>
+            
+            <section>
+                <p>Choose Your level:<p>
+                <input type="radio" id="level200" name="level" value="200">
+                <lab    el for="level200">Level 200</label>
+                <input type="radio" id="level300" name="level" value="300">
+                <label for="level300">Level 300</label>
+                <input type="radio" id="level400" name="level" value="400">
+                <label for="level400">Level 400</label>
+            </section>
+            </fieldset>
+            
+            <section>
+                <fieldset>
+                <Legend>Course Information:</legend>
+                <label for="courses">Which Practical Courses did you find interesting?</label>
+                <div>
+                    <input type="checkbox" id="csc208" name="courses" value="CSC208">
+                    <label for="csc208">CSC208</label>
+                    <input type="checkbox" id="csc210" name="courses" value="CSC210">
+                    <label for="csc210">CSC210</label>
+                    <input type="checkbox" id="csc214" name="courses" value="CSC214">
+                    <label for="csc214">CSC214</label>
+                    <input type="checkbox" id="csc303" name="courses" value="CSC303">
+                    <label for="csc303">CSC303</label>
+                    <input type="checkbox" id="csc305" name="courses" value="CSC305">
+                    <label for="csc305">CSC305</label>
+                    <input type="checkbox" id="csc306" name="courses" value="CSC306">
+                    <label for="csc306">CSC306</label>
+                    <input type="checkbox" id="csc308" name="courses" value="CSC308">
+                    <label for="csc308">CSC308</label>
+                    <input type="checkbox" id="csc310" name="courses" value="CSC310">
+                    <label for="csc310">CSC310</label>
+                    <input type="checkbox" id="csc316" name="courses" value="CSC316">
+                    <label for="csc316">CSC316</label>
+                </div>
+                </fieldset>
+            </section>
+            
+            <section>
+                <fieldset>
+                <legend>Additional Information:</legend>
+                <label for="tutorials">What part of the course made it interesting?</label>
+                <select name="tutorials">
+                    <option value="tutorials">Tutorials</option>
+                    <option value="lectures">Lectures</option>
+                    <option value="assignments">Assignments</option>
+                </select>
+                
+                <label for="comments">Write anything that made the courses interesting:</label>
+                <textarea name="comments" rows="4" placeholder="Enter Comments"></textarea>
+                
+                <label for="date">Fill Date:</label>
+                <input type="date" id="date" name="date">
+                </fieldset>
+            </section>
+            <br>
+            <div style="text-align: center;">
+              <button>Submit</button>
+            </div>
+            
+        </form>
+    </div>
+</body>
+</html>
